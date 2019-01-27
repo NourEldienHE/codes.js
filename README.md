@@ -48,4 +48,4 @@ client.command({
   aliases: ["help", "مساعدة", "قائمة الأوامر", "commands"]
 }, message => {
   message.channel.send(client.user.username + " Help list:\n")
-})```
+})
