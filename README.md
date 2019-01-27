@@ -8,7 +8,7 @@ A discord.js clone but more simple and have more features.
 
 ## Example usage:
 ```js
-const { Client } = require('codes.js');
+const Client = require('codes.js');
 const client = new Client(botToken, ['YOUR ID','OTHER ID'], '-');
 //new Client(توكن بوتك, ['YOUR ID'], 'بريفكس بوتك')
 client.start();
