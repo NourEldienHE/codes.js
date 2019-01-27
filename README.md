@@ -7,7 +7,7 @@ A discord.js clone but more simple and have more features.
 </div>
 
 ## Example usage:
-```
+```js
 const { TOKEN } = require('./auth');
 const { Client, Plugins } = require('../src/index');
 const client = new Client(TOKEN, ['YOUR ID','OTHER ID'], '-');
